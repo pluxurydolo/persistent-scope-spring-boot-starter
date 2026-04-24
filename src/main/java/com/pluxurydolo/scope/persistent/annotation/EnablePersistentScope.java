@@ -1,6 +1,6 @@
 package com.pluxurydolo.scope.persistent.annotation;
 
-import com.pluxurydolo.scope.persistent.config.PersistentScopeAutoConfiguration;
+import com.pluxurydolo.scope.persistent.configuration.PersistentScopeAutoConfiguration;
 import org.springframework.context.annotation.Import;
 
 import java.lang.annotation.ElementType;

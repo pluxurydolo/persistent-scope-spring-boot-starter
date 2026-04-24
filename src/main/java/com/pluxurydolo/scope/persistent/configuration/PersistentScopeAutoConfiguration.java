@@ -1,4 +1,4 @@
-package com.pluxurydolo.scope.persistent.config;
+package com.pluxurydolo.scope.persistent.configuration;
 
 import com.pluxurydolo.scope.persistent.scope.PersistentScope;
 import org.springframework.beans.factory.config.BeanFactoryPostProcessor;
