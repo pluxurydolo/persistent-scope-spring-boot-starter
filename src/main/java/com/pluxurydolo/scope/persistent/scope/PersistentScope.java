@@ -17,7 +17,7 @@ public class PersistentScope implements Scope {
     @Override
     public Object get(String name, ObjectFactory<?> objectFactory) {
         return BEANS.computeIfAbsent(name, _ -> {
-            LOGGER.info("dsbo [persistent-starter] Бин {} не найден и будет создан", name);
+            LOGGER.info("dsbo [persistent-scope-starter] Бин {} не найден и будет создан", name);
             return objectFactory.getObject();
         });
     }
